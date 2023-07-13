@@ -1,0 +1,20 @@
+{
+    "name": "gitpod/utopia_http_demo",
+    "description": "Demo of Utopia HTTP library",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Gitpod\\UtopiaHttpDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damodar Lohani",
+            "email": "dlohani48@gmail.com"
+        }
+    ],
+    "require": {
+        "utopia-php/framework": "dev-feat-v2 as 0.18.0",
+        "utopia-php/cli": "^0.15.0"
+    }
+}

@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  server:
+        build: .
+        ports: 
+            - "9501:80"
+        volumes:
+            - ./src:/usr/src/code/src
+            - ./app:/usr/src/code/app
+            - ./public:/usr/src/code/public
+          
